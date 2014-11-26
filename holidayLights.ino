@@ -37,7 +37,7 @@ void loop() {
       {
         // If the button is held down, buffer[i+1] will be 0
         // If it's released, buffer[i+1] is 1
-        // Set pin 0 to 255 when the button is held down
+        // Set pin 0 to 1 when the button is held down
         // and to 0 when released
         digitalWrite(0,1-buffer[i+1]);
       }
